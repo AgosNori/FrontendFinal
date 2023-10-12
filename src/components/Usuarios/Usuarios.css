@@ -1,0 +1,38 @@
+/* Estilos para el contenedor de Usuarios */
+.users {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilos para la lista de Usuarios */
+.containerU {
+  list-style-type: none;
+  padding: 0;
+}
+
+.containerU h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para cada Usuario */
+.containerU .listU {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el ícono de usuario */
+.containerU .listU svg {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para etiquetas de detalles del Usuario */
+.containerU .listU strong {
+  font-weight: bold;
+  margin-right: 5px;
+}

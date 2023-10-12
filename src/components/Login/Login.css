@@ -1,0 +1,62 @@
+/* Register.css */
+
+.containerLogin {
+    width: 100%;
+display: flex;
+justify-content: center;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.formLogin {
+    margin-bottom: 50px;
+    width: 50%;
+   
+}
+
+
+.fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    height: auto;
+    
+}
+
+legend h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.inputLogin {
+    width: 0%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.botonLogin {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Personaliza los estilos según tus preferencias */

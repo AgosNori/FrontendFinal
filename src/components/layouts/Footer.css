@@ -1,0 +1,109 @@
+/* Estilos para el footer */
+.footer {
+  background-color: #638168;
+  color: white;
+  padding: 20px 0;
+}
+
+.containerF {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+
+}
+
+.footer-logo img {
+  width: 100px;
+
+}
+/* Estilos para la lista de redes sociales */
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Muestra los elementos en línea */
+  gap: 10px; /* Espacio horizontal entre elementos */
+}
+
+/* Estilos para cada ícono de red social */
+.footer-social li {
+  width: 40px; /* Tamaño del ancho del ícono */
+  height: 40px; /* Tamaño del alto del ícono */
+  line-height: 0; /* Elimina el espacio vertical adicional */
+}
+
+/* Estilos para los enlaces de redes sociales */
+.footer-social a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc; /* Borde opcional alrededor de los íconos */
+  border-radius: 50%; /* Hace que los íconos sean redondos */
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos para el hover de los enlaces */
+.footer-social a:hover {
+  background-color: #b4c6da; /* Color de fondo en hover */
+  border-color: #b7c6d7; /* Cambio de color del borde en hover */
+  color: white; /* Cambio de color del ícono en hover */
+}
+.footer-bottom {
+  background-color: #638168;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* estilos responsive *
+/* Estilos para la lista de redes sociales */
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Permite que los íconos se muevan a una nueva fila en pantallas pequeñas */
+  gap: 10px;
+  justify-content: center; /* Centra horizontalmente los íconos */
+}
+
+/* Estilos para cada ícono de red social */
+.footer-social li {
+  width: 40px;
+  height: 40px;
+  line-height: 0;
+}
+
+/* Estilos para los enlaces de redes sociales */
+.footer-social a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos para el hover de los enlaces */
+.footer-social a:hover {
+  background-color: #96a5b5;
+  border-color: #b1b7be;
+  color: white;
+}
+
+/* Media query para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
+@media (max-width: 768px) {
+  .footer-social ul {
+    flex-direction: column; /* Muestra los íconos en una sola columna */
+    text-align: center; /* Centra el texto en la columna */
+  }
+}

@@ -1,0 +1,67 @@
+/* Estilos base */
+.busq {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.formbus {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en una nueva línea si no caben en la misma línea */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.formbus input,
+.formbus select {
+    width: 100%;
+    /* Ocupa todo el ancho disponible */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+select {
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+.product-containerB {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Estilos para pantallas más pequeñas (ejemplo: dispositivos móviles) */
+@media (max-width: 768px) {
+    .busq {
+        padding: 10px;
+    }
+
+    .formbus {
+        flex-direction: column;
+        /* Apila los elementos verticalmente en pantallas pequeñas */
+    }
+
+    .formbus input,
+    .formbus select {
+        margin-bottom: 10px;
+    }
+
+    .product-containerB {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        /* Ocupa el ancho completo en pantallas pequeñas */
+    }
+}

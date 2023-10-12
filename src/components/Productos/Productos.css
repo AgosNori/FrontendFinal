@@ -1,0 +1,70 @@
+/* Estilos para la lista de productos */
+h1{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.products {
+    background-color: #f5f5f5;
+    padding: 20px;
+
+}
+
+.container {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+
+}
+.precio{
+    font-size: 20px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Color de texto más oscuro */
+}
+
+.container li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+    transition: transform 0.2s; /* Agregado un efecto de transición */
+}
+
+.container .id, .container .nom, .container .desc, .container .precio {
+    font-weight: bold;
+    color: #333; /* Color de texto más oscuro */
+}
+
+.container .imagen {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.container .comprar-button {
+    background-color: #9199a2;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    width: 100%; /* Ancho completo para centrarlo */
+    text-align: center; /* Centrar el texto */
+    transition: background-color 0.3s; /* Efecto de transición en el color de fondo */
+}
+
+.container .comprar-button:hover {
+    background-color: #638168;
+}
